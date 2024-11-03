@@ -143,10 +143,10 @@ html {
 		grid-template-columns: repeat(5, 1fr);
 	}
 	.grid-container.col-4 {
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.grid-container.col-3 {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.grid-container.col-2 {
 		grid-template-columns: 1fr 1fr;
@@ -155,7 +155,7 @@ html {
 		grid-template-columns: 1fr;
 	}
   .grid-container.text-col {
-		grid-template-columns: 1fr 3fr 1fr;
+		grid-template-columns: repeat(2, 1fr);
 	}
 	
 }
