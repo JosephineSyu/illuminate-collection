@@ -1,0 +1,11 @@
+/* styles.css */
+@font-face {
+    font-family: "Nunito", sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,650;1,650&display=swap);
+  }
+  h1.font{
+    font-family: "Nunito", sans-serif; 
+  }
+  h5.font{
+    font-family: "Nunito", sans-serif; 
+  }
