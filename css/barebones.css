@@ -164,8 +164,14 @@ html {
 	.grid-container.col-2 {
 		grid-template-columns: 1fr 1fr;
 	}
+  .grid-container.col-2 {
+		grid-template-columns: 1fr 1fr;
+	}
 	.grid-container.full {
-		grid-template-columns: 1fr;
+    display: grid;
+    justify-items: center; 
+    align-items: center; 
+		grid-template-columns: repeat(1, 1fr);
 	}
   .grid-container.text-col {
 		grid-template-columns: repeat(2, 1fr);
