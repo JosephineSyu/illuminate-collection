@@ -140,7 +140,7 @@ html {
 	
 	/* basic grids */
 	.grid-container.col-5 {
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.grid-container.col-4 {
 		grid-template-columns: repeat(2, 1fr);
@@ -159,7 +159,6 @@ html {
 	}
 	
 }
-
 
 
 
