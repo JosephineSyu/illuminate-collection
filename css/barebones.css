@@ -139,6 +139,17 @@ html {
 	}
 	
 	/* basic grids */
+  .grid-container.col-7 {
+    display: grid;
+    justify-items: center; 
+    align-items: center; 
+		grid-template-columns: repeat(1, 1fr);
+        
+  }
+  .grid-container.col-6 {
+    display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
 	.grid-container.col-5 {
 		grid-template-columns: repeat(2, 1fr);
 	}
